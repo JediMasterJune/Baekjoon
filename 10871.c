@@ -4,13 +4,13 @@
 
 #include <stdio.h>
 
-#define LENGTH 100000
+#define N 100000
 
 int main(void)
 {
     int n, x;
     scanf("%d %d", &n, &x);
-    int array[LENGTH] = {0};
+    int array[N] = {0};
     for (int i = 0; i < n; i++) {
         int mario;
         scanf("%d", &mario);
